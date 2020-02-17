@@ -1,0 +1,24 @@
+﻿<AuthorizeView>
+    <Authorized>
+        @if (context != null && context.User != null && context.User.Identity != null && context.User.Identity.Name != null)
+        {
+            <span class="mr-2">
+                Welcome <b>@context.User.Identity.Name</b>
+            </span>
+            <a href="LogOut">Log out</a>
+        }
+        else
+        {
+            <span class="mr-2">
+                <b>Login Failure</b>
+            </span>
+        }
+    </Authorized>
+    <Authorizing>
+        <span style="color:red; font-weight:bold">Please wait - authorising</span>
+    </Authorizing>
+    <NotAuthorized>
+        <span class="mr-2"><a href="Register">Register</a></span>
+        <a href="Login">Log in</a>
+    </NotAuthorized>
+</AuthorizeView>

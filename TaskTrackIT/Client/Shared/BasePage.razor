@@ -1,0 +1,24 @@
+﻿@inject AuthenticationStateProvider AuthenticationStateProvider
+
+@code
+{
+    [Inject] protected ILocalStorageService localStorage { get; set; }@*//@inject ISyncLocalStorageService localStorage*@
+    [Inject] protected HttpClient Http { get; set; }
+
+
+    protected string UserName { get; private set; } = "";
+
+
+
+    protected async override Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+            user = authState.User;
+            StateHasChanged();
+        }
+    }
+    private System.Security.Claims.ClaimsPrincipal user;
+
+}

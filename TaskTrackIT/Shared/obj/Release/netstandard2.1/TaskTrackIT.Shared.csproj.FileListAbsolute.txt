@@ -1,0 +1,9 @@
+C:\Users\russ\source\repos\DiscoveryBlazor\TaskTrackIT\Shared\bin\Release\netstandard2.1\TaskTrackIT.Shared.deps.json
+C:\Users\russ\source\repos\DiscoveryBlazor\TaskTrackIT\Shared\bin\Release\netstandard2.1\TaskTrackIT.Shared.dll
+C:\Users\russ\source\repos\DiscoveryBlazor\TaskTrackIT\Shared\bin\Release\netstandard2.1\TaskTrackIT.Shared.pdb
+C:\Users\russ\source\repos\DiscoveryBlazor\TaskTrackIT\Shared\obj\Release\netstandard2.1\TaskTrackIT.Shared.csprojAssemblyReference.cache
+C:\Users\russ\source\repos\DiscoveryBlazor\TaskTrackIT\Shared\obj\Release\netstandard2.1\TaskTrackIT.Shared.csproj.CoreCompileInputs.cache
+C:\Users\russ\source\repos\DiscoveryBlazor\TaskTrackIT\Shared\obj\Release\netstandard2.1\TaskTrackIT.Shared.AssemblyInfoInputs.cache
+C:\Users\russ\source\repos\DiscoveryBlazor\TaskTrackIT\Shared\obj\Release\netstandard2.1\TaskTrackIT.Shared.AssemblyInfo.cs
+C:\Users\russ\source\repos\DiscoveryBlazor\TaskTrackIT\Shared\obj\Release\netstandard2.1\TaskTrackIT.Shared.dll
+C:\Users\russ\source\repos\DiscoveryBlazor\TaskTrackIT\Shared\obj\Release\netstandard2.1\TaskTrackIT.Shared.pdb
